@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints all single numbers in base 10 
+ * main - prints all single numbers in base 10
  * using only putchar twice
  *
  * Return: Always 0.
