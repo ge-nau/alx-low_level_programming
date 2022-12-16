@@ -3,7 +3,7 @@
 /**
  * main - prints the alphabet from z to a
  *
- * Return Always 0.
+ * Return: Always 0.
  */
 int main(void)
 {
