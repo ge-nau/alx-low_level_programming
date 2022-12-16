@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main -  praints all single numbersin base 10 
- * 	using only putchar twice
+ * main -	prints all single numbers in base 10 
+ * 		using only putchar twice
  *
  * Return: Always 0.
  */
