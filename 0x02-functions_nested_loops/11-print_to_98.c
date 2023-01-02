@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_to_98 - prints all integers from input to 98
- * 	separated by comma and followed a space
+ * separated by comma and followed a space
  * @n: number to be inputted
  */
 void print_to_98(int n)
