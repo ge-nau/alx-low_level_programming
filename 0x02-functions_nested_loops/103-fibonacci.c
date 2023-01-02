@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the sum of even valued fibonacci numbers not exceeding 4,000,000
+ * main - prints sum of even valued fibonacci numbers not exceeding 4,000,000
  *
  * Return: Always 0
  */
@@ -16,7 +16,7 @@ int main(void)
 		if (fibsum > 4000000)
 			break;
 
-		if((fibsum % 2) == 0)
+		if ((fibsum % 2) == 0)
 			tot_sum += fibsum;
 
 		fib1 = fib2;
