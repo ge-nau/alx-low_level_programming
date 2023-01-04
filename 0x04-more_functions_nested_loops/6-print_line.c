@@ -7,7 +7,7 @@
  * Return: void
  */
 
-void print_lins(int n)
+void print_line(int n)
 {
 	int a;
 
