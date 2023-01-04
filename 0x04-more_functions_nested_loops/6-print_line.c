@@ -16,4 +16,4 @@ void print_lines(int n)
 		_putchar('_');
 	}
 	_putchar('\n');
-}q
+}
