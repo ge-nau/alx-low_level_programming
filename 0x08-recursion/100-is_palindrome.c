@@ -20,7 +20,21 @@ int palindromeChecker(char *str, int len, int i)
 /**
  * _strlen_recursion - returns the length of a string
  * @s: the string to check
- * Return: 1 if it is a palindrome 2 otherwise
+ * Return: displays the length of the string
+ */
+
+int _strlen_recursion(char *s)
+{
+	if (*s != '\0')
+		return (1 + _strlen_recursion(s + 1));
+
+	return (0);
+}
+
+/**
+ * is_palindromee - checks palindrome
+ * @s: string to check
+ * Return: palindrome 1, 2 if otherwise
  */
 
 int is_palindrome(char *s)
